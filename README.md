@@ -1,6 +1,6 @@
 # Networked Snake Game
 
-Welcome to the GitHub repository for our Networked Snake Game, implemented 
+Welcome to Networked Snake Game, implemented 
 in Python using a server-client architecture. This game allows multiple 
 players to connect to a central server to play the game, making it a fun 
 and interactive experience.
@@ -36,10 +36,20 @@ Follow these steps to get the game running on your local machine:
 ### Server
 Start the game server first. It will listen for incoming client connections and manage the game state:
 
-'''bash
-Copy code
-python snake_server.py
+   ```bash
+   Copy code
+   python snake_server.py
+   ```
 
+## Client
+Once the server is running, you can start the client(s) on the same or different machines:
+
+```bash
+Copy code
+python snake_client.py
+```
+
+Open multiple terminals and run the client script in each to simulate multiple players.
 
 
 
