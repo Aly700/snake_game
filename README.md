@@ -26,11 +26,23 @@ Follow these steps to get the game running on your local machine:
    git clone https://github.com/Aly700/snake_game.git
    cd snake_game
 
-1. **Install Dependencies**
-   Install Dependencies
+2. **Install Dependencies**
    Install the necessary Python libraries:
    ```bash
    pip install pygame rsa
+
+## Running the Game
+
+### Server
+Start the game server first. It will listen for incoming client connections and manage the game state:
+
+'''bash
+Copy code
+python snake_server.py
+
+
+
+
 
 
 
