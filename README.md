@@ -37,7 +37,6 @@ Follow these steps to get the game running on your local machine:
 Start the game server first. It will listen for incoming client connections and manage the game state:
 
    ```bash
-   Copy code
    python snake_server.py
    ```
 
@@ -45,7 +44,6 @@ Start the game server first. It will listen for incoming client connections and 
 Once the server is running, you can start the client(s) on the same or different machines:
 
 ```bash
-Copy code
 python snake_client.py
 ```
 
